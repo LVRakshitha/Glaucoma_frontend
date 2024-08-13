@@ -85,7 +85,7 @@ function Landing(){
         <div className="p"><p>Login as doctor or an admin?</p></div>
         <div className="opts">
         <Link to="/doctor-login" style={{textDecoration:'none'}}><button>Doctor</button></Link>
-        <Link to="/doctor-login" style={{textDecoration:'none'}}><button>Admin</button></Link>
+        <Link to="/admin-login" style={{textDecoration:'none'}}><button>Admin</button></Link>
         <button onClick={closeDialog}>Cancel</button></div>
       </div>
     )}

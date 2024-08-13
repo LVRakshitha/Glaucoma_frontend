@@ -8,6 +8,7 @@ import ViewHistory from './History';
 import AdminPage from './AdminPage';
 import DoctorLogin from '../DoctorLogin';
 import DoctorRegistration from '../DoctorRegistration';
+import AdminLogin from './AdminLogin';
 
 
 const App = () => {
@@ -15,16 +16,18 @@ const App = () => {
     <div>
       {/* <DoctorLogin/> */}
       {/* <DoctorRegistration/> */}
-      <AdminPage />
+      {/* <AdminPage /> */}
    {/* <ViewHistory/> */}
-      {/* <Routes>
+      <Routes>
         <Route path='/' element={<Landing/>}/>
         <Route path='/registration-form' element={<RegistrationForm />}/>
         <Route path='/doctor-page' element={<DoctorPage />}/>
         <Route path='/doctor-login' element={<DoctorLogin />}/>
         <Route path='/Doctor-Registration-form' element={<DoctorRegistration />}/>
         <Route path='/signup-form' element={<SignupForm/>}/>
-      </Routes> */}
+        <Route path='/admin-login' element={<AdminLogin />}/>
+        <Route path='/Admin-page' element={<AdminPage />}/>
+      </Routes>
     </div>
   );
 };
