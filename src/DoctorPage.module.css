@@ -1,0 +1,221 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  background-image: url("../public/new_back.jpg");
+  background-size: cover; 
+  background-position: center; 
+  width: 95%;
+  padding: 2%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
+  text-align: center;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
+  margin-left: 800px;
+  margin-bottom: 10px;
+}
+
+.maincontent {
+  margin-top: 30px;
+  display: flex;
+  width: 80%;
+}
+
+.doctorInfo {
+  display: flex;
+  width: 70%;
+  gap: 30px;
+}
+
+.profile {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  #f2eaea;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profileInfo {
+  text-align: left;
+  width: 100%;
+}
+
+.profileInfo .photo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.profileInfo .contact {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileInfo h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profileInfo p {
+  font-size: 18px;
+  color: #4d4a4a;
+}
+
+.appointments {
+  width: 40%;
+  padding: 2%;
+  background-color:  #f3eeee;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointments h2 {
+  margin-bottom: 10px;
+}
+
+.appointmentBanners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointmentBanner {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 95%; 
+  height: 30px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.appointmentBanner .patientName {
+  font-size: 18px;
+  margin-bottom: 0; 
+}
+
+.appointmentBanner {
+  font-size: 16px;
+  /* color: #666; */
+  color: #4d4a4a;
+
+}
+
+.appointmentTime{
+ 
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+.edit{
+  font-size: 50px;
+}
+
+.content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointmentLimit {
+  height: 8.5rem;
+  width: 100%;
+  align-self: flex-start;
+  padding: 2%;
+  background-color:  #f2ecec;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointmentLimit h2 {
+  margin-bottom: 10px;
+}
+
+.appointmentLimit input[type="range"] {
+  width: 100%;
+  height: 20px;
+ 
+}
+
+.appointmentLimit p {
+  font-size: 16px;
+  color: #666;
+}
+
+.notifications {
+  margin-top: 20px;
+  background-color: #f2eaea;
+  border-radius: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notificationsContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.notificationsItem {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.notificationsItem.urgent {
+  background-color: #a4bed7;
+}
+
+.notificationsItem.query {
+  background-color: #a4bed7;
+}
+
+.notificationsItem.reminder {
+  background-color: #a4bed7;
+}
+
+.patient {
+  font-weight: bold;
+}
+
+.message {
+  font-size: 16px;
+}
+
+.time {
+  font-size: 14px;
+  color: #5c5b5b;
+}

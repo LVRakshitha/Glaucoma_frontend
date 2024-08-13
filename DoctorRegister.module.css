@@ -1,0 +1,59 @@
+
+.rContainer {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  /* background-color: #4c59af; */
+  background-color: #e7e7e7;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registerContainer {
+  padding: 20px;
+}
+
+.labelsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.leftLabels {
+  flex-basis: 45%;
+}
+
+.rightLabels {
+  flex-basis: 45%;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+label input[type="text"],
+label input[type="email"],
+label input[type="tel"],
+label input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.signup {
+  background-color: #4c59af;
+  color: #fff;
+  margin-left: 43%;
+  padding: 10px 20px;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #263388;
+}

@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CZ:wght@100..400&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 41rem;
+    background: linear-gradient(to left,#a7c2b1,white);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(29, 24, 24);
+}
+
+.selectContainer {
+  margin-right: 20px;
+  font-family: 'Mukta', sans-serif;
+
+}
+
+.select {
+  border: none;
+  color:  rgb(46, 40, 40);
+  background-color:#cbe1d3;
+  cursor: pointer;
+  border-radius: 10px;
+  /* padding: 10px; */
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.select:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin-left: 2rem;
+}
+
+.logo h1 {
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    font-size: xx-large;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+}
+
+.navLinks li {
+    margin-right: 50px;
+    /* font-family: 'Edu AU VIC WA NT Hand', sans-serif; */
+    /* font-family: 'Koh Santepheap', sans-serif; */
+    font-family: 'Mukta', sans-serif;
+    /* font-family: 'Playwrite CZ', sans-serif; */
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.navLinks a {
+    color: rgb(46, 40, 40);
+    text-decoration: none;
+}
+
+/* .navLinks a {
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  } */
+
+.searchIcon {
+    margin-right: 2rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu{
+  visibility: hidden;
+}
+
+.mainBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 21rem;
+  }
+  
+  .mainContent {
+    text-align: left;
+    margin-left: 6%;
+  }
+  
+  .mainContent h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 20px;
+    color: #033d28;
+  }
+  
+  .mainContent p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+
+  .scheduleExam, .learnMore {
+    width: 250px; 
+    font-size: 18px; 
+  }
+
+
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .scheduleExam {
+    background-color:#3962ae ;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .learnMore{
+    background-color:#3962ae ;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* border: 1px solid #3962ae; */
+    /* background-color: #c0d0c6; */
+  }
+  
+  .scheduleExam:hover {
+    background-color: #08346a;
+  }
+
+  .learnMore:hover{
+    background-color: #08346a;
+  }
+  
+  .images {
+    width: 75%;
+    height: 300px;
+    margin-right: 5%;
+  }
+
+  .images img{
+    height: 420px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .aboutContent {
+    margin-top: 11.2rem;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .aboutImage{
+    /* border: 1px solid black; */
+    padding: 4%;
+    width: 30%;
+    }
+
+    .aboutImage img{
+      margin-top: 4rem;
+      margin-left: 7rem;
+      border-radius: 10px;
+      height: 30rem;
+      width: 80%;
+   }
+
+   .aboutText{
+    padding: 3%;
+    width: 50%;
+    margin-right: 4rem;
+   }
+
+   .aboutText h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #042e1f;
+   }
+
+   .img{
+    height: 40px;
+    width: 40px;
+   }
+
+   .aboutText p{
+    font-size: 19px;
+    line-height: 26px;
+    color: grey;
+   }
+
+   .banners {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  
+  .banner {
+    width: 30%;
+    margin: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .banner h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    color: #666;
+  }
+  .certifiedDoctors, .latestTechnologies, .customerCare{
+    border: 1px solid rgb(168, 167, 167);
+    box-shadow: 0 0 4px rgb(200, 196, 196);
+    padding: 2%;
+    border-radius: 10px;
+  }
+
+  .contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(white,#a7c2b1);
+    /* height: 300px; */
+  }
+
+  .contacts h1{
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+  }
+
+  .contacts p{
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .follow{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .newChange{
+    display: flex;
+    gap: 90px;
+  }
+  .icons{
+    width: 40vb;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  .copyright{
+    width: 1300px;
+    height: 80px;
+    text-align: center;
+  }
+  .copyright p{
+    width: 100%;
+    border-top: 1px solid grey;
+    font-size: large;
+    color: rgb(82, 80, 80);
+  }
+
+/* ============================== */
+
+/* Add this to your CSS file */
+
+.learnMore {
+  background-color:#3962ae ;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: floralwhite;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dialog button {
+  display: flex;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: bisque;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dialog button:hover {
+  background-color: burlywood;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add this to the existing CSS code */
+
+/* For screens with a maximum width of 600px (phone) */
+@media only screen and (max-width: 600px) {
+  .container {
+    height: auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-left: 0;
+  }
+  
+  .navLinks {
+    flex-direction: column;
+  }
+  
+  .navLinks li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .mainBody {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  
+  .mainContent {
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .mainContent h1 {
+    font-size: 24px;
+  }
+  
+  .mainContent p {
+    font-size: 14px;
+  }
+  
+  .images {
+    width: 100%;
+    height: 200px;
+    margin-right: 0;
+  }
+  
+  .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .aboutContent {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .aboutImage {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .aboutImage img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .aboutText {
+    padding: 20px;
+    width: 100%;
+    margin-right: 0;
+  }
+  
+  .aboutText h1 {
+    font-size: 24px;
+  }
+  
+  .aboutText p {
+    font-size: 14px;
+  }
+  
+  .banners {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .banner {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .banner h2 {
+    font-size: 18px;
+  }
+  
+  .banner p {
+    font-size: 14px;
+  }
+  
+  .contacts {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .newChange {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icons {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .icons svg {
+    font-size: 20px;
+  }
+  
+  .copyright {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .copyright p {
+    font-size: 14px;
+  }
+}
